@@ -1,0 +1,49 @@
+
+ScreenManagement:
+    HomeScreen:
+
+
+<HomeScreen>:
+    name: "HomeScreen"
+    BoxLayout:
+        size_hint: 1,1
+        orientation:'vertical'
+
+        canvas:
+
+            Color:
+                id: cor
+                rgb: 255,255,255
+
+            Rectangle:
+                pos: self.pos
+                size: self.size
+
+        BoxLayout:
+            size_hint: None,None
+            height: '300sp'
+            width: "300sp"
+            pos_hint: {'center_x': .5, 'center_y': .5}
+            Image:
+                id: imagem
+                source:'img/1.png'
+
+                pos_hint: {'center_x': .5, 'center_y': .8}
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: .9,.9
+            spacing:'20sp'
+            pos_hint: {'center_x': .5, 'center_y': .5}
+            Label:
+                id: lbText
+                text:'Olá bem vindo, conecte o sensor ou altere a porta do mesmo'
+                font_size:'18sp'
+                color: (0,0,0,1)
+                pos_hint: {'center_x': .5, 'center_y': .5}
+            Image:
+                id: btnColor
+                size_hint: None,None
+                height:'100sp'
+                width:'100sp'
+                color: 0,0,0,1
+                pos_hint: {'center_x': .5, 'center_y': .9}
