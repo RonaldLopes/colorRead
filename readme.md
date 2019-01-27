@@ -38,7 +38,7 @@ Se o arduino não estiver conectado ou a porta não estiver correta a tela apres
 
 Nesse caso, basta ir na classe SerialControler e alterar a porta.
 
-####Obrigado por chegar até o fim deste pequeno tutorial, sinta-se a vontade para explorar a aplicação e aprender mais!
+##Obrigado por chegar até o fim deste pequeno tutorial, sinta-se a vontade para explorar a aplicação e aprender mais!
 
 
 *Os icones utilizados neste projeto foram obtidos no site https://icon-icons.com/pt/*
